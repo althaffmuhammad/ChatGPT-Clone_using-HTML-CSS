@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>ChatGPT</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="sidebar">
+        <div class="upperside">
+          <div class="uppersideTop">
+            <img src="./assets/chatgpt.svg" alt="Logo" class="logo" />
+            <span class="brand">ChatGPT</span>
+          </div>
+          <button class="midBtn">
+            <img class="addbtn" src="./assets/add-30.png" alt="Add" />New Chat
+          </button>
+          <div class="uppersideBottom">
+            <button class="query">
+              <img src="./assets/message.svg" alt="msg_icon" />What Is
+              Programming ?
+            </button>
+            <button class="query">
+              <img src="./assets/message.svg" alt="msg_icon" />How to use API ?
+            </button>
+          </div>
+        </div>
+        <div class="lowerside">
+          <div class="listitems">
+            <img src="./assets/home.svg" alt="home" class="listitemsimg" />Home
+          </div>
+          <div class="listitems">
+            <img
+              src="./assets/bookmark.svg"
+              alt="saved"
+              class="listitemsimg"
+            />Saved
+          </div>
+          <div class="listitems">
+            <img src="./assets/rocket.svg" alt="upgrade" class="listitemsimg" />
+            Upgarde to Pro
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="chats">
+          <div class="chat">
+            <img class="chatimg" src="./assets/user-icon.png" alt="" />
+            <p class="txt">what is programming ?</p>
+          </div>
+          <div class="chat bot">
+            <img class="chatimg" src="./assets/chatgptLogo.svg" alt="" />
+            <p class="txt">
+              Programming, also known as coding, is the process of designing and
+              creating sets of instructions that tell a computer how to perform
+              specific tasks. These instructions are written in a programming
+              language, which has its own syntax and rules. Programmers use
+              programming languages to write code that can be understood by
+              computers, allowing them to execute various operations, manipulate
+              data, solve problems, and create software applications.
+              Programming involves tasks such as analyzing problems, breaking
+              them down into smaller steps, designing algorithms to solve them,
+              and translating those algorithms into a programming language.
+              Programmers use a variety of tools and techniques to write, test,
+              and debug their code to ensure that it functions correctly.
+              Programming is a versatile skill used in a wide range of
+              industries, including software development, web development, game
+              development, data science, artificial intelligence, and more. It
+              empowers individuals to create software solutions to automate
+              tasks, improve efficiency, and unlock new possibilities in
+              technology.
+            </p>
+          </div>
+          <div class="chat">
+            <img class="chatimg" src="./assets/user-icon.png" alt="" />
+            <p class="txt">How to use API ?</p>
+          </div>
+          <div class="chat bot">
+            <img class="chatimg" src="./assets/chatgptLogo.svg" alt="" />
+            <p class="txt">
+              Using an API (Application Programming Interface) involves
+              interacting with predefined sets of rules, protocols, and tools
+              that allow different software applications to communicate with
+              each other. Here's a general guide on how to use an API:
+              Understand the API Documentation: Start by reading the API
+              documentation provided by the service or platform offering the
+              API. The documentation usually includes information about
+              available endpoints, parameters, authentication methods, response
+              formats, and usage examples. Authentication: Many APIs require
+              authentication to ensure security and limit access to authorized
+              users. Depending on the API, you may need to obtain an API key,
+              OAuth token, or other credentials to authenticate your requests.
+              Follow the authentication process outlined in the documentation.
+              Choose an Endpoint: Determine which API endpoint you need to
+              interact with to achieve your desired functionality. Endpoints are
+              specific URLs that represent different functionalities provided by
+              the API, such as retrieving data, updating information, or
+              performing actions. Make HTTP Requests: Use HTTP methods (such as
+              GET, POST, PUT, DELETE) to interact with the API endpoints.
+              Construct HTTP requests according to the API documentation,
+              including any required parameters or headers. Libraries and
+              frameworks in various programming languages often provide
+              convenient methods for making HTTP requests. Handle Responses:
+              After sending a request to the API, you'll receive a response
+              containing the requested data or confirmation of the action
+              performed. APIs typically return data in formats like JSON or XML.
+              Parse the response to extract the relevant information and handle
+              any errors or status codes returned by the API. Implement Error
+              Handling: Be prepared to handle errors gracefully. APIs may return
+              errors due to invalid requests, authentication failures, server
+              issues, or other reasons. Implement error-handling mechanisms in
+              your code to handle such situations and provide appropriate
+              feedback to users. Respect Rate Limits: Some APIs impose rate
+              limits to prevent abuse and ensure fair usage. Make sure to adhere
+              to any rate limits specified in the API documentation to avoid
+              being blocked or throttled. Test and Iterate: Test your API
+              integration thoroughly to ensure that it functions as expected in
+              different scenarios. Iterate on your code as needed, making
+              adjustments based on testing results and feedback. Monitor Usage:
+              Keep track of your API usage, including the number of requests
+              made, response times, and any errors encountered. Monitoring usage
+              helps identify potential issues and optimize performance. By
+              following these steps and referring to the API documentation, you
+              can effectively use APIs to integrate external services, access
+              data, and build powerful applications
+            </p>
+          </div>
+        </div>
+        <div class="chatFooter">
+          <div class="inp">
+            <input type="text" placeholder="Message ChatGPT..." />
+            <button class="send">
+              <img src="./assets/send.svg" alt="" />
+            </button>
+          </div>
+          <p>
+            ChatGPT can make mistakes. Consider checking important information
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
